@@ -9,6 +9,7 @@ use std::thread;
 const MAX: u16 = 65535;
 
 struct Arguments {
+    #[allow(dead_code)]
     flag: String,
     ipaddr: IpAddr,
     threads: u16,
